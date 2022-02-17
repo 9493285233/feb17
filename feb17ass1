@@ -1,0 +1,15 @@
+n=int(input("enter n:"))
+esum=0
+osum=0
+for i in range(1,n+1):
+ if i%2==0:
+     esum=esum+i 
+ else:     
+     osum=osum+i 
+print("even numbers sum is",esum)
+print("odd numbers sum is",osum)
+   
+output: enter n:5
+even numbers sum is 6
+odd numbers sum is 9
+> 
